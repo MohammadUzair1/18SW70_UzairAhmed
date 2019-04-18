@@ -19,13 +19,13 @@ class ElectricityBill
         }
         else if(units>200 && units<=300)
         {
-        	bill=(50*10)+(50*15)+(50*20)+((units-200)*25);
+        	bill=(50*10)+(50*15)+(100*20)+((units-200)*25);
         }
         else if(units>=301)
         {
-        	bill=(50*10)+(50*15)+(50*20)+(50*25)+((units-300)*30);
+        	bill=(50*10)+(50*15)+(100*20)+(100*25)+((units-300)*30);
         } 
-        System.out.println("Total Bill is: "+bill);
+        System.out.println("Total Bill is: "+bill);	
 
 
 	}
