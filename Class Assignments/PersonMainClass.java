@@ -1,22 +1,19 @@
 class PersonMainClass{
 	public static void main(String[] args) {
-	Person p=new Person();
-	p.personInfo("Uzair",18);
-	Student s=new Student();
-	s.studentInfo(70);
-	Employee e=new Employee();
-	e.employeeInfo(2212);
-	Undergraduate u=new Undergraduate();
-	u.Info("Software");
-	Graduate g=new Graduate();
-	g.graduateInfo(500.0,380.0);
-	Faculty f=new Faculty();
-	f.facultyInfo("Software");
-	Staff x=new Staff();
-	x.staffInfo("SirJunaid","SirNaeem","MisMaryam");
-	Masters m=new Masters();
-	m.mastersInfo("M.E");
-	Doctoral d=new Doctoral();
-	d.doctoralInfo("Ph.D");
+		Doctoral d=new Doctoral();
+		Masters m=new Masters();
+		Undergraduate u=new Undergraduate();
+		Staff s=new Staff();
+		Faculty f=new Faculty();
+		d.personInfo("Uzair",18);
+		u.studentInfo(70);
+		s.employeeInfo(223476);
+		u.getInfo("Sotware");
+		m.graduateInfo(500.0,394.5);
+		f.facultyInfo("SoftwareEngineering");
+		s.staffInfo("SirNaeem","SirJunaid","MadamMariam");
+		m.mastersInfo("M.E");
+		d.doctoralInfo("Ph.D");
+		
 	}
 }

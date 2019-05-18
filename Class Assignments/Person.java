@@ -24,7 +24,7 @@ class Employee extends Person{
 }
 class Undergraduate extends Student{
 	String dept;
-	public void Info(String d){
+	public void getInfo(String d){
 		dept=d;
 		System.out.println("Department: "+dept);
 	}
